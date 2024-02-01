@@ -129,7 +129,7 @@ public class OpenMrs extends BaseDriver {
             US_402();
         }
         ep.clickFunction(ep.getUserIcon());
-        waiting(1);
+        waiting(2);
         ep.clickFunction(ep.getMyAccount());
         waiting(1);
         ep.hoverFunction(ep.getChangePassword());
